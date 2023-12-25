@@ -124,6 +124,40 @@ line|z13-[highway=cycleway],
 line|z14-[highway=bridleway],
 {color: @bridleway; opacity: 1;}
 
+/* Ski pistes, z14- is inheretited from the main style */
+
+line|z12-13[piste:type=downhill],
+line|z12-13[piste:type=sled],
+{width: 0.8; opacity: 0.5; color: @piste;}
+
+line|z12-13[piste:type=downhill][piste:difficulty=novice]
+{width: 0.8; opacity: 0.5; color: @piste_novice;}
+line|z12-13[piste:type=downhill][piste:difficulty=easy]
+{width: 0.8; opacity: 0.5; color: @piste_easy;}
+line|z12-13[piste:type=downhill][piste:difficulty=intermediate]
+{width: 0.8; opacity: 0.5; color: @piste_intermediate;}
+line|z12-13[piste:type=downhill][piste:difficulty=advanced]
+{width: 0.8; opacity: 0.5; color: @piste_advanced;}
+line|z12-13[piste:type=downhill][piste:difficulty=expert],
+{width: 0.8; opacity: 0.5; color: @piste_expert;}
+line|z14-[piste:type=downhill][piste:difficulty=freeride],
+{width: 0.8; opacity: 0.5; color: @piste_freeride;}
+
+line|z12[piste:type=nordic],
+{width: 0.8; opacity: 0.6; color: @piste;}
+line|z13[piste:type=nordic],
+{width: 1; opacity: 0.7; color: @piste;}
+line|z14-[piste:type=nordic],
+{width: 1.2; opacity: 0.8;}
+line|z15[piste:type=nordic],
+{width: 1.4;}
+line|z16[piste:type=nordic],
+{width: 1.6;}
+line|z17[piste:type=nordic],
+{width: 1.9;}
+line|z18-[piste:type=nordic],
+{width: 2.3;}
+
 
 /* Rail lines are important landmarks / obstacles */
 
