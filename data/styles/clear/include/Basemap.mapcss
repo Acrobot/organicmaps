@@ -385,10 +385,10 @@ area|z16-[leisure=playground],
 area|z14-[piste:type=downhill][area],
 area|z14-[piste:type=sled][area],
 area|z14-[piste:type=snow_park],
-{fill-color: @piste;}
+{fill-color: @piste; fill-opacity: 0.15;}
 
 area|z14-[piste:type=downhill][piste:difficulty=novice][area],
-{fill-color: @piste_novice;}
+{fill-color: @piste_novice; fill-opacity: 0.25;}
 area|z14-[piste:type=downhill][piste:difficulty=easy][area],
 {fill-color: @piste_easy;}
 area|z14-[piste:type=downhill][piste:difficulty=intermediate][area],
