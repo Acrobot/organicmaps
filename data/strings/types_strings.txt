@@ -29940,6 +29940,9 @@
     tr = Yokuş Aşağı Kayak Pisti
     uk = Гірськолижна траса
 
+  [type.piste_type.downhill.area]
+    ref = type.piste_type.downhill
+
   [type.piste_type.downhill.advanced]
     ref = type.piste_type.downhill
     en = Advanced Downhill Ski Run
@@ -29953,6 +29956,9 @@
     ru = Продвинутая горнолыжная трасса
     tr = Gelişmiş kayak pisti
     uk = Доповнена гірськолижна траса
+
+  [type.piste_type.downhill.advanced.area]
+    ref = type.piste_type.downhill.advanced
 
   [type.piste_type.downhill.easy]
     ref = type.piste_type.downhill
@@ -29968,6 +29974,9 @@
     tr = Basit kayak pisti
     uk = Легка гірськолижна траса
 
+  [type.piste_type.downhill.easy.area]
+    ref = type.piste_type.downhill.easy
+
   [type.piste_type.downhill.expert]
     ref = type.piste_type.downhill
     en = Expert Downhill Ski Run
@@ -29982,8 +29991,12 @@
     tr = Uzmanlar için kayak pisti
     uk = Гірськолижна траса для експертів
 
+  [type.piste_type.downhill.expert.area]
+    ref = type.piste_type.downhill.expert
+
   [type.piste_type.downhill.freeride]
     ref = type.piste_type.downhill
+    en = Freeride Downhill Ski Run
     et = Tasuta mäesuusatamine
     pt = Esqui alpino livre
     pt-BR = Esqui alpino livre
@@ -30005,6 +30018,9 @@
     tr = Orta zorlukta kayak pisti
     uk = Гірськолижна траса середнього рівня
 
+  [type.piste_type.downhill.intermediate.area]
+    ref = type.piste_type.downhill.intermediate
+
   [type.piste_type.downhill.novice]
     ref = type.piste_type.downhill
     en = Novice Downhill Ski Run
@@ -30018,6 +30034,9 @@
     ru = Горнолыжная трасса для новичков
     tr = Yeni başlayanlar için kayak pisti
     uk = Гірськолижна траса для новеньких
+
+  [type.piste_type.downhill.novice.area]
+    ref = type.piste_type.downhill.novice
 
   [type.piste_type.nordic]
     en = Nordic Ski Trail
@@ -30049,6 +30068,21 @@
     ru = Трасса для саней
     tr = Kızak Pisti
     uk = Траса для санок
+
+  [type.piste_type.sled.area]
+    ref = type.piste_type.sled
+
+  [type.piste_type.snow_park]
+    en = Snow Park
+
+  [type.piste_type.hike]
+    en = Snow Hiking Trail
+
+  [type.piste_type.connection]
+    en = Piste Connection
+
+  [type.piste_type.skitour]
+    en = Skitour Piste
 
   [type.amenity.events_venue]
     en = Events Venue

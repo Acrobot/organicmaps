@@ -382,6 +382,22 @@ area|z15-[sport=soccer],
 area|z16-[leisure=playground],
 {fill-color: @sport;}
 
+area|z14-[piste:type=downhill][area],
+area|z14-[piste:type=sled][area],
+area|z14-[piste:type=snow_park],
+{fill-color: @piste;}
+
+area|z14-[piste:type=downhill][piste:difficulty=novice][area],
+{fill-color: @piste_novice;}
+area|z14-[piste:type=downhill][piste:difficulty=easy][area],
+{fill-color: @piste_easy;}
+area|z14-[piste:type=downhill][piste:difficulty=intermediate][area],
+{fill-color: @piste_intermediate;}
+area|z14-[piste:type=downhill][piste:difficulty=advanced][area],
+{fill-color: @piste_advanced;}
+area|z14-[piste:type=downhill][piste:difficulty=expert][area],
+{fill-color: @piste_expert;}
+
 /* 7.4 Cemetery */
 
 area|z14[landuse=cemetery],
